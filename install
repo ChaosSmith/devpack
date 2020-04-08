@@ -1,0 +1,10 @@
+#!/bin/bash
+
+parent_path=$( cd "$(dirname "${BASH_SOURCE[0]}")" ; pwd -P )
+cd "$parent_path"
+
+cp -r .vim ~/.vim
+cp .vimrc ~/.vimrc
+cp .tmux.conf ~/.tmux.conf
+
+echo "Installation Complete!"
