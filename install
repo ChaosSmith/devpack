@@ -6,5 +6,6 @@ cd "$parent_path"
 cp -r .vim ~/.vim
 cp .vimrc ~/.vimrc
 cp .tmux.conf ~/.tmux.conf
+echo 'alias tmux="tmux -2"' >> ~/.bashrc
 
 echo "Installation Complete!"
