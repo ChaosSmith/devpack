@@ -66,3 +66,5 @@ let &winwidth = &columns * 2 / 10
 
 nmap <F1> :.w !pbcopy<CR><CR>
 vmap <F1> :w !pbcopy<CR><CR>
+
+autocmd Filetype go setlocal tabstop=4 shiftwidth=4 softtabstop=4
