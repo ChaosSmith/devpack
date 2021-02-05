@@ -5,6 +5,7 @@ let localmapleader = ","
 set runtimepath^=~/.vim/bundle/lightline.vim
 set runtimepath^=~/.vim/bundle/vim-tmux-navigator
 set runtimepath^=~/.vim/bundle/fzf.vim
+set runtimepath^=~/.vim/bundle/vim-svelte
 
 set number
 
