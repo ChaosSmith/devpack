@@ -8,6 +8,6 @@ setlocal shiftwidth=2
 setlocal expandtab
 
 " ALE config
-let b:ale_fixers = ['eslint']
+let b:ale_fixers = ['eslint', 'prettier']
 let b:ale_linters = ['eslint']
 
